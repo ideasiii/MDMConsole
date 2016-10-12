@@ -1,0 +1,50 @@
+{
+  "project_info": {
+    "project_number": "203492990438",
+    "firebase_url": "https://fir-mdmconsole.firebaseio.com",
+    "project_id": "firebase-mdmconsole",
+    "storage_bucket": "firebase-mdmconsole.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:203492990438:android:f9c6d0048298632a",
+        "android_client_info": {
+          "package_name": "iii.ideas.mdmconsole"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "203492990438-4un61899ri7vn3ckcksrq5qgq17jp6rv.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "203492990438-ojeioc6gt4di682tc05bs05sfkg0htvm.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "203492990438-qr7ai2v98hum0cl105968aamiiag4i9n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAX2Y0AD4Q7hxbznMFPf7mtfaRw9_6ROGg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

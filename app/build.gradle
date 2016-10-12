@@ -1,0 +1,59 @@
+apply plugin: 'com.android.application'
+apply plugin: 'android-apt'
+android {
+    compileSdkVersion 24
+    buildToolsVersion "24.0.2"
+
+
+    defaultConfig {
+        applicationId "iii.ideas.mdmconsole"
+        minSdkVersion 19
+        targetSdkVersion 24
+        versionCode 1
+        versionName "1.0"
+    }
+    dexOptions {
+        javaMaxHeapSize "2g"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+
+    }
+
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    apt 'com.jakewharton:butterknife-compiler:8.4.0'
+    compile files('libs/common.jar')
+    compile files('libs/ctrl_admin.jar')
+    compile files('libs/ctrl_app.jar')
+    compile files('libs/ctrl_applist.jar')
+    compile files('libs/ctrl_battery.jar')
+    compile files('libs/ctrl_camera.jar')
+    compile files('libs/ctrl_content.jar')
+    compile files('libs/ctrl_fused_location.jar')
+    compile files('libs/ctrl_record.jar')
+    compile files('libs/ctrl_restore.jar')
+    compile files('libs/ctrl_screen_lock.jar')
+    compile files('libs/ctrl_storage_space.jar')
+    compile files('libs/ctrl_volume_mute.jar')
+    compile files('libs/ctrl_wifi.jar')
+    compile files('libs/module.jar')
+    compile files('libs/ctrl_permission.jar')
+    compile 'com.google.android.gms:play-services-gcm:9.4.0'
+    compile 'com.android.support:appcompat-v7:24.2.0'
+    compile 'com.google.android.gms:play-services-location:9.4.0'
+    compile 'com.android.support:support-v4:24.2.0'
+    compile 'com.android.support:design:24.2.0'
+    compile 'com.android.support:support-annotations:24.2.0'
+    compile 'com.jakewharton:butterknife:8.4.0'
+    compile files('libs/ctrl_common.jar')
+
+
+}
+apply plugin: 'com.google.gms.google-services'

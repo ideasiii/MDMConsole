@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MDMConsole</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="account">Account</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="logoimage">LogoImage</string>
+</resources>
